@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.19045.3930]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\RC_Student_lab>cd C:\Users\RC_Student_lab\Desktop\java
+
+C:\Users\RC_Student_lab\Desktop\java>javac ArthmeticExample.java
+ArthmeticExample.java:12: error: ';' expected
+        System.out.println(" sum: " + sum)
+                                          ^
+ArthmeticExample.java:13: error: ';' expected
+        System.out.println(" difference: " + difference)
+                                                        ^
+ArthmeticExample.java:14: error: ';' expected
+        System.out.println(" product: " + product)
+                                                  ^
+ArthmeticExample.java:15: error: ';' expected
+        System.out.println(" quotient: " + quotient)
+                                                    ^
+ArthmeticExample.java:16: error: ';' expected
+        System.out.println(" remainder: " + remainder)
+                                                      ^
+5 errors
+
+C:\Users\RC_Student_lab\Desktop\java>javac ArthmeticExample.java
+
+C:\Users\RC_Student_lab\Desktop\java>java ArthmeticExample
+ sum: 13
+ difference: 7
+ product: 30
+ quotient: 3
+ remainder: 1
+
+C:\Users\RC_Student_lab\Desktop\java>
