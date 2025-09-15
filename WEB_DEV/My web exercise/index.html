@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Embedded YouTube Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .video-block {
+            margin-bottom: 40px;
+        }
+        .video-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            margin-bottom: 8px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        a.video-link {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a.video-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite YouTube Videos</h1>
+
+    <div class="video-block">
+        <div class="video-title">Coding Tutorial - Java Programming</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/grEKMHGYyns" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a class="video-link" href="https://www.youtube.com/watch?v=grEKMHGYyns" target="_blank">Watch on YouTube</a>
+    </div>
+
+    <div class="video-block">
+        <div class="video-title">Motivational Speech - Believe in Yourself</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/mgmVOuLgFB0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a class="video-link" href="https://www.youtube.com/watch?v=mgmVOuLgFB0" target="_blank">Watch on YouTube</a>
+    </div>
+
+    <div class="video-block">
+        <div class="video-title">Relaxing Music - 1 Hour Chill Lofi</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a class="video-link" href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Watch on YouTube</a>
+    </div>
+
+    <div class="video-block">
+        <div class="video-title">Learn English Conversation</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/V4hTfMyx7-I" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a class="video-link" href="https://www.youtube.com/watch?v=V4hTfMyx7-I" target="_blank">Watch on YouTube</a>
+    </div>
+
+    <div class="video-block">
+        <div class="video-title">How to Play Guitar for Beginners</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7fNq_KU_fNQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a class="video-link" href="https://www.youtube.com/watch?v=7fNq_KU_fNQ" target="_blank">Watch on YouTube</a>
+    </div>
+
+</body>
+</html>
